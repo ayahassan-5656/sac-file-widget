@@ -1,6 +1,7 @@
 (function () {
-  const template = document.createElement("template");
+  const TAG_NAME = "com-ayahassan-filemanager-1";
 
+  const template = document.createElement("template");
   template.innerHTML = `
     <style>
       :host {
@@ -11,7 +12,6 @@
         background: white;
       }
     </style>
-
     <div>File Manager widget loaded successfully.</div>
   `;
 
@@ -23,5 +23,7 @@
     }
   }
 
-  customElements.define("file-manager-widget", FileManager);
+  if (!customElements.get(TAG_NAME)) {
+    customElements.define(TAG_NAME, FileManager);
+  }
 })();
