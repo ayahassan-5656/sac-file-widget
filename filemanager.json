@@ -1,0 +1,19 @@
+{
+  "id": "com.sac.filemanager",
+  "version": "1.0.0",
+  "name": "File Manager",
+  "description": "Upload and download files",
+  "newInstancePrefix": "FileManager",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "file-manager-widget",
+      "url": "http://192.168.68.144:3001/filemanager.js",
+      "integrity": "",
+      "ignoreIntegrity": true
+    }
+  ],
+  "properties": {},
+  "methods": {},
+  "events": {}
+}
