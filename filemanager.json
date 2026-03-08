@@ -8,7 +8,7 @@
     {
       "kind": "main",
       "tag": "file-manager-widget",
-      "url": "http://192.168.68.144:3001/filemanager.js",
+      "url": "https://ayahassan-5656.github.io/sac-file-widget/filemanager.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
