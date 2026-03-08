@@ -7,7 +7,7 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "file-manager-widget",
+      "tag": "com-ayahassan-filemanager-1",
       "url": "https://ayahassan-5656.github.io/sac-file-widget/filemanager.js",
       "integrity": "",
       "ignoreIntegrity": true
@@ -17,3 +17,4 @@
   "methods": {},
   "events": {}
 }
+
